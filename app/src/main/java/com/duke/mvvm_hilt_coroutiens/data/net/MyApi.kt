@@ -12,5 +12,5 @@ import retrofit2.http.Path
 interface MyApi {
 
     @GET("/{id}")
-   suspend fun getPhotos(@Path("id") path: String): Response<List<MyPhotosModelItem>>
+   suspend fun getPhotos(@Path("id") path: String): Response<ArrayList<MyPhotosModelItem>>
 }

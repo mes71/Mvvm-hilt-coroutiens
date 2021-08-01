@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Mvvm-hilt-coroutiens</string>
+    <string name="title_messages">id==> %1$s , \n
+        %2$s .</string>
 </resources>

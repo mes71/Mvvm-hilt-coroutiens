@@ -4,5 +4,5 @@ import com.duke.mvvm_hilt_coroutiens.data.model.MyPhotosModelItem
 
 interface MainHelper {
 
-    fun onSuccess(body: List<MyPhotosModelItem>)
+    fun onSuccess(body: ArrayList<MyPhotosModelItem>)
 }
